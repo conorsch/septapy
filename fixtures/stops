@@ -1,0 +1,1642 @@
+
+
+[
+  {
+    "lng": -75.20797,
+    "lat": 40.076831,
+    "stopid": 250,
+    "stopname": "Germantown Av &amp; Bethlehem Pk - FS"
+  },
+  {
+    "lng": -75.159974,
+    "lat": 39.952053,
+    "stopid": 756,
+    "stopname": "12th St &amp; Market St"
+  },
+  {
+    "lng": -75.165174,
+    "lat": 39.913563,
+    "stopid": 759,
+    "stopname": "10th St &amp; Bigler St"
+  },
+  {
+    "lng": -75.174615,
+    "lat": 40.035836,
+    "stopid": 949,
+    "stopname": "Germantown Av &amp; Chelten Av"
+  },
+  {
+    "lng": -75.174851,
+    "lat": 40.035855,
+    "stopid": 950,
+    "stopname": "Germantown Av &amp; Chelten Av"
+  },
+  {
+    "lng": -75.185754,
+    "lat": 40.052451,
+    "stopid": 1175,
+    "stopname": "Germantown Av &amp; Westview St"
+  },
+  {
+    "lng": -75.151574,
+    "lat": 40.011002,
+    "stopid": 1176,
+    "stopname": "Germantown Av &amp; Butler St"
+  },
+  {
+    "lng": -75.149343,
+    "lat": 40.004232,
+    "stopid": 1178,
+    "stopname": "Germantown Av &amp; Ontario St - FS"
+  },
+  {
+    "lng": -75.147968,
+    "lat": 39.993162,
+    "stopid": 1179,
+    "stopname": "Germantown Av &amp; Lehigh Av"
+  },
+  {
+    "lng": -75.156165,
+    "lat": 39.969377,
+    "stopid": 1180,
+    "stopname": "12th St &amp; Girard Av"
+  },
+  {
+    "lng": -75.163111,
+    "lat": 39.937495,
+    "stopid": 1181,
+    "stopname": "12th St &amp; Washington Av"
+  },
+  {
+    "lng": -75.166353,
+    "lat": 39.916073,
+    "stopid": 1182,
+    "stopname": "Oregon Av &amp; 11th St"
+  },
+  {
+    "lng": -75.161424,
+    "lat": 39.937107,
+    "stopid": 1183,
+    "stopname": "11th St &amp; Washington Av"
+  },
+  {
+    "lng": -75.15818,
+    "lat": 39.951996,
+    "stopid": 1184,
+    "stopname": "11th St &amp; Market St - FS"
+  },
+  {
+    "lng": -75.154081,
+    "lat": 39.970702,
+    "stopid": 1185,
+    "stopname": "11th St &amp; Girard Av"
+  },
+  {
+    "lng": -75.147839,
+    "lat": 39.993001,
+    "stopid": 1186,
+    "stopname": "Germantown Av &amp; Lehigh Av"
+  },
+  {
+    "lng": -75.150695,
+    "lat": 40.009117,
+    "stopid": 1188,
+    "stopname": "Germantown Av &amp; Erie Av"
+  },
+  {
+    "lng": -75.151291,
+    "lat": 40.010796,
+    "stopid": 1189,
+    "stopname": "Germantown Av &amp; Butler St"
+  },
+  {
+    "lng": -75.185589,
+    "lat": 40.052441,
+    "stopid": 1190,
+    "stopname": "Germantown Av &amp; Westview St"
+  },
+  {
+    "lng": -75.206529,
+    "lat": 40.076016,
+    "stopid": 15427,
+    "stopname": "Germantown Av &amp; Highland Av"
+  },
+  {
+    "lng": -75.20503,
+    "lat": 40.075121,
+    "stopid": 15429,
+    "stopname": "Germantown Av &amp; Gravers Ln"
+  },
+  {
+    "lng": -75.203719,
+    "lat": 40.074333,
+    "stopid": 15430,
+    "stopname": "Germantown Av &amp; Southampton Av"
+  },
+  {
+    "lng": -75.202764,
+    "lat": 40.073252,
+    "stopid": 15433,
+    "stopname": "Germantown Av &amp; Hartwell Ln"
+  },
+  {
+    "lng": -75.201881,
+    "lat": 40.072009,
+    "stopid": 15434,
+    "stopname": "Germantown Av &amp; Abington Av"
+  },
+  {
+    "lng": -75.200903,
+    "lat": 40.070749,
+    "stopid": 15435,
+    "stopname": "Germantown Av &amp; Willow Grove Av"
+  },
+  {
+    "lng": -75.199866,
+    "lat": 40.069542,
+    "stopid": 15436,
+    "stopname": "Germantown Av &amp; Springfield Av"
+  },
+  {
+    "lng": -75.198899,
+    "lat": 40.068684,
+    "stopid": 15437,
+    "stopname": "Germantown Av &amp; Moreland Av"
+  },
+  {
+    "lng": -75.196527,
+    "lat": 40.066948,
+    "stopid": 15438,
+    "stopname": "Germantown Av &amp; Cresheim Valley Dr"
+  },
+  {
+    "lng": -75.195221,
+    "lat": 40.064884,
+    "stopid": 15439,
+    "stopname": "Germantown Av &amp; Roumfort Rd"
+  },
+  {
+    "lng": -75.193923,
+    "lat": 40.063926,
+    "stopid": 15440,
+    "stopname": "Germantown Av &amp; Mcpherson St - MBFS"
+  },
+  {
+    "lng": -75.193111,
+    "lat": 40.062809,
+    "stopid": 15441,
+    "stopname": "Germantown Av &amp; Gowen Av"
+  },
+  {
+    "lng": -75.191981,
+    "lat": 40.061299,
+    "stopid": 15442,
+    "stopname": "Germantown Av &amp; Allens Ln"
+  },
+  {
+    "lng": -75.191156,
+    "lat": 40.060217,
+    "stopid": 15443,
+    "stopname": "Germantown Av &amp; Mt Airy Av"
+  },
+  {
+    "lng": -75.189542,
+    "lat": 40.058429,
+    "stopid": 15444,
+    "stopname": "Germantown Av &amp; Mt Pleasant Av"
+  },
+  {
+    "lng": -75.188187,
+    "lat": 40.056936,
+    "stopid": 15460,
+    "stopname": "Germantown Av &amp; Sedgwick St"
+  },
+  {
+    "lng": -75.187447,
+    "lat": 40.055524,
+    "stopid": 15462,
+    "stopname": "Germantown Av &amp; Gorgas Ln"
+  },
+  {
+    "lng": -75.187071,
+    "lat": 40.054872,
+    "stopid": 15464,
+    "stopname": "Germantown Av &amp; Carpenter Ln"
+  },
+  {
+    "lng": -75.186236,
+    "lat": 40.053308,
+    "stopid": 15466,
+    "stopname": "Germantown Av &amp; Slocum St"
+  },
+  {
+    "lng": -75.185402,
+    "lat": 40.051789,
+    "stopid": 15467,
+    "stopname": "Germantown Av &amp; Phil Ellena St"
+  },
+  {
+    "lng": -75.184015,
+    "lat": 40.04927,
+    "stopid": 15492,
+    "stopname": "Germantown Av &amp; Sharpnack St"
+  },
+  {
+    "lng": -75.183522,
+    "lat": 40.048296,
+    "stopid": 15493,
+    "stopname": "Germantown Av &amp; Upsal St"
+  },
+  {
+    "lng": -75.184673,
+    "lat": 40.050431,
+    "stopid": 15494,
+    "stopname": "Germantown Av &amp; Hortter St - FS"
+  },
+  {
+    "lng": -75.182911,
+    "lat": 40.047126,
+    "stopid": 15495,
+    "stopname": "Germantown Av &amp; Cliveden St"
+  },
+  {
+    "lng": -75.181819,
+    "lat": 40.044892,
+    "stopid": 15646,
+    "stopname": "Germantown Av &amp; Duval St"
+  },
+  {
+    "lng": -75.180997,
+    "lat": 40.043266,
+    "stopid": 15647,
+    "stopname": "Germantown Av &amp; Washington Ln"
+  },
+  {
+    "lng": -75.18009,
+    "lat": 40.042122,
+    "stopid": 15648,
+    "stopname": "Germantown Av &amp; Tulpehocken St"
+  },
+  {
+    "lng": -75.178736,
+    "lat": 40.040468,
+    "stopid": 15649,
+    "stopname": "Germantown Av &amp; Walnut Ln"
+  },
+  {
+    "lng": -75.177759,
+    "lat": 40.039279,
+    "stopid": 15651,
+    "stopname": "Germantown Av &amp; Harvey St"
+  },
+  {
+    "lng": -75.1771,
+    "lat": 40.038474,
+    "stopid": 15652,
+    "stopname": "Germantown Av &amp;  Haines St"
+  },
+  {
+    "lng": -75.176558,
+    "lat": 40.037813,
+    "stopid": 15653,
+    "stopname": "Germantown Av &amp; Rittenhouse St"
+  },
+  {
+    "lng": -75.175723,
+    "lat": 40.036794,
+    "stopid": 15654,
+    "stopname": "Germantown Av &amp; Price St"
+  },
+  {
+    "lng": -75.173825,
+    "lat": 40.035023,
+    "stopid": 15655,
+    "stopname": "Germantown Av &amp; Armat St"
+  },
+  {
+    "lng": -75.172799,
+    "lat": 40.03436,
+    "stopid": 15700,
+    "stopname": "Germantown Av &amp; School House Ln"
+  },
+  {
+    "lng": -75.170711,
+    "lat": 40.033133,
+    "stopid": 15701,
+    "stopname": "Germantown Av &amp; Coulter St"
+  },
+  {
+    "lng": -75.169473,
+    "lat": 40.032372,
+    "stopid": 15702,
+    "stopname": "Germantown Av &amp; Penn St"
+  },
+  {
+    "lng": -75.167915,
+    "lat": 40.031521,
+    "stopid": 15703,
+    "stopname": "Germantown Av &amp; Bringhurst St"
+  },
+  {
+    "lng": -75.166735,
+    "lat": 40.030858,
+    "stopid": 15704,
+    "stopname": "Germantown Av &amp; Ashmead St"
+  },
+  {
+    "lng": -75.165626,
+    "lat": 40.03024,
+    "stopid": 15705,
+    "stopname": "Germantown Av &amp; Manheim St"
+  },
+  {
+    "lng": -75.163892,
+    "lat": 40.029254,
+    "stopid": 15706,
+    "stopname": "Germantown Av &amp; Seymour St"
+  },
+  {
+    "lng": -75.162382,
+    "lat": 40.028341,
+    "stopid": 15707,
+    "stopname": "Germantown Av &amp; Logan St"
+  },
+  {
+    "lng": -75.160674,
+    "lat": 40.02673,
+    "stopid": 15708,
+    "stopname": "Germantown Av &amp; Abbottsford Av"
+  },
+  {
+    "lng": -75.15968,
+    "lat": 40.024015,
+    "stopid": 15710,
+    "stopname": "Germantown Av &amp; Berkley St"
+  },
+  {
+    "lng": -75.159129,
+    "lat": 40.022854,
+    "stopid": 15711,
+    "stopname": "Germantown Av &amp; Windrim Av"
+  },
+  {
+    "lng": -75.158105,
+    "lat": 40.021584,
+    "stopid": 15712,
+    "stopname": "Germantown Av &amp; Roberts Av"
+  },
+  {
+    "lng": -75.157022,
+    "lat": 40.020493,
+    "stopid": 15713,
+    "stopname": "Germantown Av &amp; Dennie St"
+  },
+  {
+    "lng": -75.155809,
+    "lat": 40.019098,
+    "stopid": 15715,
+    "stopname": "Germantown Av &amp; Saint Paul St"
+  },
+  {
+    "lng": -75.15521,
+    "lat": 40.01815,
+    "stopid": 15716,
+    "stopname": "Germantown Av &amp; Juniata St"
+  },
+  {
+    "lng": -75.154588,
+    "lat": 40.017132,
+    "stopid": 15717,
+    "stopname": "Germantown Av &amp; Staub St"
+  },
+  {
+    "lng": -75.153966,
+    "lat": 40.015943,
+    "stopid": 15718,
+    "stopname": "Germantown Av &amp; Hunting Park Av"
+  },
+  {
+    "lng": -75.15318,
+    "lat": 40.01446,
+    "stopid": 15719,
+    "stopname": "Germantown Av &amp; Lycoming St"
+  },
+  {
+    "lng": -75.152277,
+    "lat": 40.012673,
+    "stopid": 15720,
+    "stopname": "Germantown Av &amp; Pike St"
+  },
+  {
+    "lng": -75.150405,
+    "lat": 40.007608,
+    "stopid": 16076,
+    "stopname": "Germantown Av &amp; Venango St"
+  },
+  {
+    "lng": -75.149868,
+    "lat": 40.005929,
+    "stopid": 16080,
+    "stopname": "Germantown Av &amp; Tioga St"
+  },
+  {
+    "lng": -75.148912,
+    "lat": 40.002732,
+    "stopid": 16085,
+    "stopname": "Germantown Av &amp; Westmoreland St"
+  },
+  {
+    "lng": -75.148292,
+    "lat": 40.001097,
+    "stopid": 16087,
+    "stopname": "Germantown Av &amp; Allegheny Av"
+  },
+  {
+    "lng": -75.147495,
+    "lat": 39.999275,
+    "stopid": 16097,
+    "stopname": "Germantown Av &amp; Glenwood Av"
+  },
+  {
+    "lng": -75.146899,
+    "lat": 39.997774,
+    "stopid": 16098,
+    "stopname": "Germantown Av &amp; Indiana Av"
+  },
+  {
+    "lng": -75.147165,
+    "lat": 39.996213,
+    "stopid": 16099,
+    "stopname": "Germantown Av &amp; Cambria St"
+  },
+  {
+    "lng": -75.14756,
+    "lat": 39.994723,
+    "stopid": 16100,
+    "stopname": "Germantown Av &amp; Somerset St"
+  },
+  {
+    "lng": -75.148388,
+    "lat": 39.991565,
+    "stopid": 16101,
+    "stopname": "Germantown Av &amp; Huntingdon St"
+  },
+  {
+    "lng": -75.148418,
+    "lat": 39.990057,
+    "stopid": 16102,
+    "stopname": "10th St &amp; Cumberland St"
+  },
+  {
+    "lng": -75.148766,
+    "lat": 39.988559,
+    "stopid": 16103,
+    "stopname": "10th St &amp; York St"
+  },
+  {
+    "lng": -75.149067,
+    "lat": 39.987078,
+    "stopid": 16104,
+    "stopname": "10th St &amp; Dauphin St"
+  },
+  {
+    "lng": -75.149416,
+    "lat": 39.985472,
+    "stopid": 16105,
+    "stopname": "10th St &amp; Susquehanna Av"
+  },
+  {
+    "lng": -75.152606,
+    "lat": 39.985657,
+    "stopid": 16108,
+    "stopname": "12th St &amp; Susquehanna Av - FS"
+  },
+  {
+    "lng": -75.152906,
+    "lat": 39.984266,
+    "stopid": 16109,
+    "stopname": "12th St &amp; Diamond St"
+  },
+  {
+    "lng": -75.153195,
+    "lat": 39.982812,
+    "stopid": 16110,
+    "stopname": "12th St &amp; Norris St"
+  },
+  {
+    "lng": -75.153473,
+    "lat": 39.98134,
+    "stopid": 16111,
+    "stopname": "12th St &amp; Berks St"
+  },
+  {
+    "lng": -75.153892,
+    "lat": 39.979814,
+    "stopid": 16112,
+    "stopname": "12th St &amp; Montgomery Av"
+  },
+  {
+    "lng": -75.154229,
+    "lat": 39.978227,
+    "stopid": 16113,
+    "stopname": "12th St &amp; Cecil B Moore Av"
+  },
+  {
+    "lng": -75.15453,
+    "lat": 39.976862,
+    "stopid": 16114,
+    "stopname": "12th St &amp; Oxford St"
+  },
+  {
+    "lng": -75.154819,
+    "lat": 39.975443,
+    "stopid": 16115,
+    "stopname": "12th St &amp; Jefferson St"
+  },
+  {
+    "lng": -75.155143,
+    "lat": 39.974078,
+    "stopid": 16116,
+    "stopname": "12th St &amp; Master St"
+  },
+  {
+    "lng": -75.155431,
+    "lat": 39.972812,
+    "stopid": 16117,
+    "stopname": "12th St &amp; Thompson St"
+  },
+  {
+    "lng": -75.156165,
+    "lat": 39.969377,
+    "stopid": 16118,
+    "stopname": "12th St &amp; Poplar St"
+  },
+  {
+    "lng": -75.156417,
+    "lat": 39.968164,
+    "stopid": 16119,
+    "stopname": "12th St &amp; Parrish St"
+  },
+  {
+    "lng": -75.156622,
+    "lat": 39.967209,
+    "stopid": 16120,
+    "stopname": "12th St &amp; Brown St"
+  },
+  {
+    "lng": -75.15685,
+    "lat": 39.966228,
+    "stopid": 16121,
+    "stopname": "12th St &amp; Fairmount Av"
+  },
+  {
+    "lng": -75.157187,
+    "lat": 39.96464,
+    "stopid": 16122,
+    "stopname": "12th St &amp; Wallace St"
+  },
+  {
+    "lng": -75.157547,
+    "lat": 39.963044,
+    "stopid": 16123,
+    "stopname": "12th St &amp; Green St"
+  },
+  {
+    "lng": -75.157716,
+    "lat": 39.962205,
+    "stopid": 16124,
+    "stopname": "12th St &amp; Ridge Av"
+  },
+  {
+    "lng": -75.157968,
+    "lat": 39.961072,
+    "stopid": 16125,
+    "stopname": "12th St &amp; Buttonwood St"
+  },
+  {
+    "lng": -75.158185,
+    "lat": 39.960037,
+    "stopid": 16126,
+    "stopname": "12th St &amp; Noble St"
+  },
+  {
+    "lng": -75.158377,
+    "lat": 39.959199,
+    "stopid": 16127,
+    "stopname": "12th St &amp; Callowhill St"
+  },
+  {
+    "lng": -75.158725,
+    "lat": 39.957673,
+    "stopid": 16128,
+    "stopname": "12th St &amp; Vine St"
+  },
+  {
+    "lng": -75.159121,
+    "lat": 39.955853,
+    "stopid": 16129,
+    "stopname": "12th St &amp; Race St"
+  },
+  {
+    "lng": -75.159542,
+    "lat": 39.954025,
+    "stopid": 16130,
+    "stopname": "12th St &amp; Arch St"
+  },
+  {
+    "lng": -75.160299,
+    "lat": 39.950501,
+    "stopid": 16131,
+    "stopname": "12th St &amp; Chestnut St"
+  },
+  {
+    "lng": -75.160624,
+    "lat": 39.948967,
+    "stopid": 16132,
+    "stopname": "12th St &amp; Walnut St"
+  },
+  {
+    "lng": -75.150786,
+    "lat": 39.985645,
+    "stopid": 16369,
+    "stopname": "Susquehanna Av &amp; 11th St"
+  },
+  {
+    "lng": -75.160852,
+    "lat": 39.947843,
+    "stopid": 16495,
+    "stopname": "12th St &amp; Locust St"
+  },
+  {
+    "lng": -75.161116,
+    "lat": 39.946629,
+    "stopid": 16498,
+    "stopname": "12th St &amp; Spruce St"
+  },
+  {
+    "lng": -75.161417,
+    "lat": 39.945184,
+    "stopid": 16499,
+    "stopname": "12th St &amp; Pine St"
+  },
+  {
+    "lng": -75.161598,
+    "lat": 39.944274,
+    "stopid": 16500,
+    "stopname": "12th St &amp; Lombard St"
+  },
+  {
+    "lng": -75.161814,
+    "lat": 39.94332,
+    "stopid": 16501,
+    "stopname": "12th St &amp; South St"
+  },
+  {
+    "lng": -75.16203,
+    "lat": 39.942419,
+    "stopid": 16502,
+    "stopname": "12th St &amp; Bainbridge St"
+  },
+  {
+    "lng": -75.162258,
+    "lat": 39.941447,
+    "stopid": 16503,
+    "stopname": "12th St &amp; Fitzwater St"
+  },
+  {
+    "lng": -75.162474,
+    "lat": 39.940439,
+    "stopid": 16504,
+    "stopname": "12th St &amp; Catharine St"
+  },
+  {
+    "lng": -75.162642,
+    "lat": 39.939671,
+    "stopid": 16505,
+    "stopname": "12th St &amp; Christian St"
+  },
+  {
+    "lng": -75.162846,
+    "lat": 39.938708,
+    "stopid": 16506,
+    "stopname": "12th St &amp; Carpenter St"
+  },
+  {
+    "lng": -75.163399,
+    "lat": 39.936192,
+    "stopid": 16507,
+    "stopname": "12th St &amp; Ellsworth St"
+  },
+  {
+    "lng": -75.163615,
+    "lat": 39.935175,
+    "stopid": 16509,
+    "stopname": "12th St &amp; Federal St"
+  },
+  {
+    "lng": -75.163939,
+    "lat": 39.93373,
+    "stopid": 16511,
+    "stopname": "12th St &amp; Wharton St"
+  },
+  {
+    "lng": -75.164191,
+    "lat": 39.932544,
+    "stopid": 16514,
+    "stopname": "12th St &amp; Reed St"
+  },
+  {
+    "lng": -75.164491,
+    "lat": 39.931331,
+    "stopid": 16516,
+    "stopname": "12th St &amp; Dickinson St"
+  },
+  {
+    "lng": -75.164732,
+    "lat": 39.9301,
+    "stopid": 16518,
+    "stopname": "12th St &amp; Tasker St"
+  },
+  {
+    "lng": -75.165008,
+    "lat": 39.928886,
+    "stopid": 16522,
+    "stopname": "12th St &amp; Morris St"
+  },
+  {
+    "lng": -75.165295,
+    "lat": 39.927691,
+    "stopid": 16524,
+    "stopname": "12 th St &amp; Moore St"
+  },
+  {
+    "lng": -75.165536,
+    "lat": 39.926442,
+    "stopid": 16575,
+    "stopname": "12th St &amp; Mifflin St"
+  },
+  {
+    "lng": -75.165836,
+    "lat": 39.925229,
+    "stopid": 16576,
+    "stopname": "12th St &amp; McKean St"
+  },
+  {
+    "lng": -75.166112,
+    "lat": 39.924025,
+    "stopid": 16577,
+    "stopname": "12th St &amp; Snyder Av"
+  },
+  {
+    "lng": -75.166364,
+    "lat": 39.922785,
+    "stopid": 16585,
+    "stopname": "12th St &amp; Jackson St"
+  },
+  {
+    "lng": -75.16664,
+    "lat": 39.921536,
+    "stopid": 16586,
+    "stopname": "12th St &amp; Wolf St"
+  },
+  {
+    "lng": -75.166904,
+    "lat": 39.920287,
+    "stopid": 16587,
+    "stopname": "12th St &amp; Ritner St"
+  },
+  {
+    "lng": -75.167192,
+    "lat": 39.919065,
+    "stopid": 16588,
+    "stopname": "12th St &amp; Porter St"
+  },
+  {
+    "lng": -75.167457,
+    "lat": 39.917771,
+    "stopid": 16589,
+    "stopname": "12th St &amp; Shunk St"
+  },
+  {
+    "lng": -75.167709,
+    "lat": 39.916522,
+    "stopid": 16590,
+    "stopname": "12th St &amp; Oregon Av"
+  },
+  {
+    "lng": -75.164643,
+    "lat": 39.915855,
+    "stopid": 16591,
+    "stopname": "Oregon Av &amp; 10th St"
+  },
+  {
+    "lng": -75.164895,
+    "lat": 39.914714,
+    "stopid": 16592,
+    "stopname": "10th St &amp; Johnston St"
+  },
+  {
+    "lng": -75.164401,
+    "lat": 39.923637,
+    "stopid": 16594,
+    "stopname": "11th St &amp; Snyder Av"
+  },
+  {
+    "lng": -75.163861,
+    "lat": 39.926073,
+    "stopid": 16600,
+    "stopname": "11th St &amp; Mifflin St"
+  },
+  {
+    "lng": -75.163562,
+    "lat": 39.927295,
+    "stopid": 16601,
+    "stopname": "11th St &amp; Moore St"
+  },
+  {
+    "lng": -75.163309,
+    "lat": 39.928517,
+    "stopid": 16603,
+    "stopname": "11th St &amp; Morris St"
+  },
+  {
+    "lng": -75.162191,
+    "lat": 39.930844,
+    "stopid": 16606,
+    "stopname": "Passyunk Av &amp; Dickinson St"
+  },
+  {
+    "lng": -75.161125,
+    "lat": 39.931689,
+    "stopid": 16608,
+    "stopname": "Passyunk Av &amp; 10th St"
+  },
+  {
+    "lng": -75.162229,
+    "lat": 39.93337,
+    "stopid": 16609,
+    "stopname": "11th St &amp; Wharton St"
+  },
+  {
+    "lng": -75.163045,
+    "lat": 39.92973,
+    "stopid": 16828,
+    "stopname": "11th St &amp; Tasker St"
+  },
+  {
+    "lng": -75.161171,
+    "lat": 39.938312,
+    "stopid": 16831,
+    "stopname": "11th St &amp; Carpenter St"
+  },
+  {
+    "lng": -75.16194,
+    "lat": 39.934726,
+    "stopid": 16832,
+    "stopname": "11th St &amp; Federal St"
+  },
+  {
+    "lng": -75.161712,
+    "lat": 39.935769,
+    "stopid": 16833,
+    "stopname": "11th St &amp; Ellsworth St"
+  },
+  {
+    "lng": -75.160955,
+    "lat": 39.939311,
+    "stopid": 16834,
+    "stopname": "11th St &amp; Christian St"
+  },
+  {
+    "lng": -75.160775,
+    "lat": 39.940078,
+    "stopid": 16835,
+    "stopname": "11th St &amp; Catharine St"
+  },
+  {
+    "lng": -75.16057,
+    "lat": 39.941086,
+    "stopid": 16836,
+    "stopname": "11th St &amp; Fitzwater St"
+  },
+  {
+    "lng": -75.160354,
+    "lat": 39.942067,
+    "stopid": 16837,
+    "stopname": "11th St &amp; Bainbridge St"
+  },
+  {
+    "lng": -75.16015,
+    "lat": 39.942915,
+    "stopid": 16838,
+    "stopname": "11th St &amp; South St"
+  },
+  {
+    "lng": -75.159934,
+    "lat": 39.943941,
+    "stopid": 16839,
+    "stopname": "11th St &amp; Lombard St"
+  },
+  {
+    "lng": -75.159742,
+    "lat": 39.944833,
+    "stopid": 16840,
+    "stopname": "11th St &amp; Pine St"
+  },
+  {
+    "lng": -75.159441,
+    "lat": 39.946242,
+    "stopid": 16841,
+    "stopname": "11th St &amp; Spruce St"
+  },
+  {
+    "lng": -75.159177,
+    "lat": 39.947482,
+    "stopid": 16842,
+    "stopname": "11th St &amp; Locust St"
+  },
+  {
+    "lng": -75.158913,
+    "lat": 39.948606,
+    "stopid": 16843,
+    "stopname": "11th St &amp; Walnut St"
+  },
+  {
+    "lng": -75.158576,
+    "lat": 39.950131,
+    "stopid": 16844,
+    "stopname": "11th St &amp; Chestnut St"
+  },
+  {
+    "lng": -75.157843,
+    "lat": 39.953673,
+    "stopid": 16845,
+    "stopname": "11th St &amp; Arch St"
+  },
+  {
+    "lng": -75.157446,
+    "lat": 39.955493,
+    "stopid": 16846,
+    "stopname": "11th St &amp; Race St"
+  },
+  {
+    "lng": -75.157098,
+    "lat": 39.95692,
+    "stopid": 16847,
+    "stopname": "11th St &amp; Vine St"
+  },
+  {
+    "lng": -75.156509,
+    "lat": 39.959694,
+    "stopid": 16849,
+    "stopname": "11th St &amp; Noble St"
+  },
+  {
+    "lng": -75.156376,
+    "lat": 39.960328,
+    "stopid": 16850,
+    "stopname": "11th St &amp; Ridge Av"
+  },
+  {
+    "lng": -75.1561,
+    "lat": 39.961532,
+    "stopid": 16851,
+    "stopname": "11th St &amp; Spring Garden St"
+  },
+  {
+    "lng": -75.155848,
+    "lat": 39.962674,
+    "stopid": 16852,
+    "stopname": "11th St &amp; Green St"
+  },
+  {
+    "lng": -75.155535,
+    "lat": 39.964164,
+    "stopid": 16853,
+    "stopname": "11th St &amp; Wallace St"
+  },
+  {
+    "lng": -75.155211,
+    "lat": 39.9656,
+    "stopid": 16854,
+    "stopname": "11th St &amp; Fairmount Av"
+  },
+  {
+    "lng": -75.154983,
+    "lat": 39.966554,
+    "stopid": 16855,
+    "stopname": "11th St &amp; Brown St"
+  },
+  {
+    "lng": -75.154754,
+    "lat": 39.967661,
+    "stopid": 16856,
+    "stopname": "11th St &amp; Parrish St"
+  },
+  {
+    "lng": -75.15449,
+    "lat": 39.968838,
+    "stopid": 16857,
+    "stopname": "11th St &amp; Poplar St"
+  },
+  {
+    "lng": -75.15372,
+    "lat": 39.972415,
+    "stopid": 16858,
+    "stopname": "11th St &amp; Thompson St"
+  },
+  {
+    "lng": -75.153431,
+    "lat": 39.973718,
+    "stopid": 16862,
+    "stopname": "11th St &amp; Master St"
+  },
+  {
+    "lng": -75.153143,
+    "lat": 39.975074,
+    "stopid": 16863,
+    "stopname": "11th St &amp; Jefferson St"
+  },
+  {
+    "lng": -75.15283,
+    "lat": 39.976501,
+    "stopid": 16864,
+    "stopname": "11th St &amp; Oxford St"
+  },
+  {
+    "lng": -75.152541,
+    "lat": 39.977857,
+    "stopid": 16865,
+    "stopname": "11th St &amp; Cecil B Moore Av"
+  },
+  {
+    "lng": -75.152205,
+    "lat": 39.979364,
+    "stopid": 16866,
+    "stopname": "11th St &amp; Montgomery Av"
+  },
+  {
+    "lng": -75.151844,
+    "lat": 39.980997,
+    "stopid": 16867,
+    "stopname": "11th St &amp; Berks St"
+  },
+  {
+    "lng": -75.151543,
+    "lat": 39.982424,
+    "stopid": 16868,
+    "stopname": "11th St &amp; Norris St"
+  },
+  {
+    "lng": -75.151206,
+    "lat": 39.983896,
+    "stopid": 16869,
+    "stopname": "11th St &amp; Diamond St"
+  },
+  {
+    "lng": -75.150858,
+    "lat": 39.985502,
+    "stopid": 16870,
+    "stopname": "11th St &amp; Susquehanna Av"
+  },
+  {
+    "lng": -75.150484,
+    "lat": 39.987109,
+    "stopid": 16871,
+    "stopname": "11th St &amp; Dauphin St"
+  },
+  {
+    "lng": -75.150196,
+    "lat": 39.988588,
+    "stopid": 16872,
+    "stopname": "11th St &amp; York St"
+  },
+  {
+    "lng": -75.149859,
+    "lat": 39.990096,
+    "stopid": 16873,
+    "stopname": "11th St &amp; Cumberland St"
+  },
+  {
+    "lng": -75.149534,
+    "lat": 39.991577,
+    "stopid": 16874,
+    "stopname": "11th St &amp; Huntingdon St"
+  },
+  {
+    "lng": -75.148483,
+    "lat": 39.99145,
+    "stopid": 16875,
+    "stopname": "Huntingdon St &amp; Germantown Av"
+  },
+  {
+    "lng": -75.147431,
+    "lat": 39.994535,
+    "stopid": 16876,
+    "stopname": "Germantown Av &amp; Somerset St"
+  },
+  {
+    "lng": -75.147035,
+    "lat": 39.996052,
+    "stopid": 16877,
+    "stopname": "Germantown Av &amp; Cambria St"
+  },
+  {
+    "lng": -75.146699,
+    "lat": 39.997559,
+    "stopid": 16878,
+    "stopname": "Germantown Av &amp; Indiana Av"
+  },
+  {
+    "lng": -75.147319,
+    "lat": 39.999177,
+    "stopid": 16879,
+    "stopname": "Germantown Av &amp; Glenwood Av"
+  },
+  {
+    "lng": -75.147963,
+    "lat": 40.000632,
+    "stopid": 16880,
+    "stopname": "Germantown Av &amp; Sedgley Av"
+  },
+  {
+    "lng": -75.14836,
+    "lat": 40.001758,
+    "stopid": 16881,
+    "stopname": "Germantown Av &amp; Hilton St"
+  },
+  {
+    "lng": -75.148688,
+    "lat": 40.002589,
+    "stopid": 16882,
+    "stopname": "Germantown Av &amp; Westmoreland St"
+  },
+  {
+    "lng": -75.149108,
+    "lat": 40.003857,
+    "stopid": 16883,
+    "stopname": "Germantown Av &amp; Rising Sun Av"
+  },
+  {
+    "lng": -75.149656,
+    "lat": 40.005804,
+    "stopid": 16884,
+    "stopname": "Germantown Av &amp; Tioga St"
+  },
+  {
+    "lng": -75.15017,
+    "lat": 40.007429,
+    "stopid": 16885,
+    "stopname": "Germantown Av &amp; Venango St"
+  },
+  {
+    "lng": -75.151994,
+    "lat": 40.012458,
+    "stopid": 16886,
+    "stopname": "Germantown Av &amp; Pike St"
+  },
+  {
+    "lng": -75.152944,
+    "lat": 40.014352,
+    "stopid": 16887,
+    "stopname": "Germantown Av &amp; Lycoming St"
+  },
+  {
+    "lng": -75.153824,
+    "lat": 40.015845,
+    "stopid": 16888,
+    "stopname": "Germantown Av &amp; Hunting Park Av"
+  },
+  {
+    "lng": -75.154422,
+    "lat": 40.017167,
+    "stopid": 16889,
+    "stopname": "Germantown Av &amp; Staub St"
+  },
+  {
+    "lng": -75.154904,
+    "lat": 40.017971,
+    "stopid": 16890,
+    "stopname": "Germantown Av &amp; Juniata St"
+  },
+  {
+    "lng": -75.155526,
+    "lat": 40.018963,
+    "stopid": 16891,
+    "stopname": "Germantown Av &amp; Saint Paul St"
+  },
+  {
+    "lng": -75.156774,
+    "lat": 40.020448,
+    "stopid": 16892,
+    "stopname": "Germantown Av &amp; Dennie St"
+  },
+  {
+    "lng": -75.158187,
+    "lat": 40.021888,
+    "stopid": 16893,
+    "stopname": "Germantown Av &amp; 20th St"
+  },
+  {
+    "lng": -75.158881,
+    "lat": 40.022719,
+    "stopid": 16894,
+    "stopname": "Germantown Av &amp; Windrim Av - FS"
+  },
+  {
+    "lng": -75.160438,
+    "lat": 40.026667,
+    "stopid": 17044,
+    "stopname": "Germantown Av &amp; Abbottsford Av"
+  },
+  {
+    "lng": -75.161993,
+    "lat": 40.028233,
+    "stopid": 17047,
+    "stopname": "Germantown Av &amp; Logan St"
+  },
+  {
+    "lng": -75.163632,
+    "lat": 40.029263,
+    "stopid": 17048,
+    "stopname": "Germantown Av &amp; Seymour St"
+  },
+  {
+    "lng": -75.164824,
+    "lat": 40.029943,
+    "stopid": 17049,
+    "stopname": "Germantown Av &amp; Wister St"
+  },
+  {
+    "lng": -75.166416,
+    "lat": 40.030848,
+    "stopid": 17050,
+    "stopname": "Germantown Av &amp; Ashmead St"
+  },
+  {
+    "lng": -75.167655,
+    "lat": 40.031538,
+    "stopid": 17051,
+    "stopname": "Germantown Av &amp; Bringhurst St"
+  },
+  {
+    "lng": -75.169071,
+    "lat": 40.032326,
+    "stopid": 17052,
+    "stopname": "Germantown Av &amp; Penn St"
+  },
+  {
+    "lng": -75.170451,
+    "lat": 40.033141,
+    "stopid": 17053,
+    "stopname": "Germantown Av &amp; Coulter St"
+  },
+  {
+    "lng": -75.172539,
+    "lat": 40.034368,
+    "stopid": 17054,
+    "stopname": "Germantown Av &amp; School House Ln"
+  },
+  {
+    "lng": -75.173577,
+    "lat": 40.035013,
+    "stopid": 17055,
+    "stopname": "Germantown Av &amp; Armat St"
+  },
+  {
+    "lng": -75.17543,
+    "lat": 40.036624,
+    "stopid": 17056,
+    "stopname": "Germantown Av &amp; Price St"
+  },
+  {
+    "lng": -75.176016,
+    "lat": 40.03741,
+    "stopid": 17191,
+    "stopname": "Germantown Av &amp; Rittenhouse St"
+  },
+  {
+    "lng": -75.176805,
+    "lat": 40.038358,
+    "stopid": 17196,
+    "stopname": "Germantown Av &amp; Haines St"
+  },
+  {
+    "lng": -75.177676,
+    "lat": 40.039404,
+    "stopid": 17197,
+    "stopname": "Germantown Av &amp; High St"
+  },
+  {
+    "lng": -75.178477,
+    "lat": 40.040405,
+    "stopid": 17200,
+    "stopname": "Germantown Av &amp; Walnut Ln"
+  },
+  {
+    "lng": -75.179834,
+    "lat": 40.042025,
+    "stopid": 17202,
+    "stopname": "Germantown Av &amp; Tulpehocken St"
+  },
+  {
+    "lng": -75.180784,
+    "lat": 40.043212,
+    "stopid": 17206,
+    "stopname": "Germantown Av &amp; Washington Ln"
+  },
+  {
+    "lng": -75.181559,
+    "lat": 40.044676,
+    "stopid": 17207,
+    "stopname": "Germantown Av &amp; Duval St"
+  },
+  {
+    "lng": -75.182099,
+    "lat": 40.045865,
+    "stopid": 17208,
+    "stopname": "Germantown Av &amp; Johnson St"
+  },
+  {
+    "lng": -75.182675,
+    "lat": 40.047018,
+    "stopid": 17210,
+    "stopname": "Germantown Av &amp; Cliveden St"
+  },
+  {
+    "lng": -75.183289,
+    "lat": 40.048187,
+    "stopid": 17211,
+    "stopname": "Germantown Av &amp; Upsal St"
+  },
+  {
+    "lng": -75.183826,
+    "lat": 40.049252,
+    "stopid": 17212,
+    "stopname": "Germantown Av &amp; Sharpnack St"
+  },
+  {
+    "lng": -75.184531,
+    "lat": 40.050538,
+    "stopid": 17213,
+    "stopname": "Germantown Av &amp; Hortter St"
+  },
+  {
+    "lng": -75.185142,
+    "lat": 40.051637,
+    "stopid": 17215,
+    "stopname": "Germantown Av &amp; Phil Ellena St"
+  },
+  {
+    "lng": -75.185965,
+    "lat": 40.053138,
+    "stopid": 17218,
+    "stopname": "Germantown Av &amp; Slocum St"
+  },
+  {
+    "lng": -75.186881,
+    "lat": 40.054863,
+    "stopid": 17227,
+    "stopname": "Germantown Av &amp; Carpenter Ln"
+  },
+  {
+    "lng": -75.187222,
+    "lat": 40.055425,
+    "stopid": 17228,
+    "stopname": "Germantown Av &amp; Gorgas Ln"
+  },
+  {
+    "lng": -75.171742,
+    "lat": 39.914416,
+    "stopid": 17232,
+    "stopname": "Broad St &amp; Bigler St - FS"
+  },
+  {
+    "lng": -75.187951,
+    "lat": 40.056828,
+    "stopid": 17402,
+    "stopname": "Germantown Av &amp; Sedgwick St"
+  },
+  {
+    "lng": -75.189282,
+    "lat": 40.058428,
+    "stopid": 17403,
+    "stopname": "Germantown Av &amp; Mt Pleasant Av"
+  },
+  {
+    "lng": -75.19092,
+    "lat": 40.060163,
+    "stopid": 17404,
+    "stopname": "Germantown Av &amp; Mt Airy Av"
+  },
+  {
+    "lng": -75.191768,
+    "lat": 40.061262,
+    "stopid": 17405,
+    "stopname": "Germantown Av &amp; Allens Ln"
+  },
+  {
+    "lng": -75.192792,
+    "lat": 40.062621,
+    "stopid": 17406,
+    "stopname": "Germantown Av &amp; Gowen Av"
+  },
+  {
+    "lng": -75.194052,
+    "lat": 40.064346,
+    "stopid": 17407,
+    "stopname": "Germantown Av &amp; McPherson St"
+  },
+  {
+    "lng": -75.194961,
+    "lat": 40.06491,
+    "stopid": 17408,
+    "stopname": "Germantown Av &amp; Roumfort Rd"
+  },
+  {
+    "lng": -75.19635,
+    "lat": 40.066849,
+    "stopid": 17409,
+    "stopname": "Germantown Av &amp; Cresheim Valley Dr "
+  },
+  {
+    "lng": -75.198627,
+    "lat": 40.068639,
+    "stopid": 17410,
+    "stopname": "Germantown Av &amp; Moreland Av"
+  },
+  {
+    "lng": -75.199689,
+    "lat": 40.069569,
+    "stopid": 17411,
+    "stopname": "Germantown Av &amp; Springfield Av"
+  },
+  {
+    "lng": -75.200655,
+    "lat": 40.070695,
+    "stopid": 17412,
+    "stopname": "Germantown Av &amp; Willow Grove Av"
+  },
+  {
+    "lng": -75.201645,
+    "lat": 40.071929,
+    "stopid": 17770,
+    "stopname": "Germantown Av &amp; Abington Av"
+  },
+  {
+    "lng": -75.202528,
+    "lat": 40.073171,
+    "stopid": 17771,
+    "stopname": "Germantown Av &amp; Hartwell Ln"
+  },
+  {
+    "lng": -75.203318,
+    "lat": 40.074154,
+    "stopid": 17774,
+    "stopname": "Germantown Av &amp; Southampton Av"
+  },
+  {
+    "lng": -75.204805,
+    "lat": 40.075139,
+    "stopid": 17776,
+    "stopname": "Germantown Av &amp; Gravers Ln"
+  },
+  {
+    "lng": -75.206269,
+    "lat": 40.076025,
+    "stopid": 17777,
+    "stopname": "Germantown Av &amp; Highland Av"
+  },
+  {
+    "lng": -75.207178,
+    "lat": 40.076553,
+    "stopid": 17778,
+    "stopname": "Germantown Av &amp; Evergreen Av"
+  },
+  {
+    "lng": -75.156689,
+    "lat": 39.958847,
+    "stopid": 17855,
+    "stopname": "11th St &amp; Callowhill St"
+  },
+  {
+    "lng": -75.182312,
+    "lat": 40.045928,
+    "stopid": 18582,
+    "stopname": "Germantown Av &amp; Johnson St"
+  },
+  {
+    "lng": -75.171274,
+    "lat": 39.916387,
+    "stopid": 20959,
+    "stopname": "Broad St &amp; Oregon Av"
+  },
+  {
+    "lng": -75.208298,
+    "lat": 40.077715,
+    "stopid": 21222,
+    "stopname": "Chestnut Hill Loop"
+  },
+  {
+    "lng": -75.151164,
+    "lat": 40.010073,
+    "stopid": 21224,
+    "stopname": "Germantown Av &amp; Broad St"
+  },
+  {
+    "lng": -75.165758,
+    "lat": 39.917402,
+    "stopid": 21783,
+    "stopname": "11th St &amp; Shunk St"
+  },
+  {
+    "lng": -75.165482,
+    "lat": 39.918579,
+    "stopid": 21784,
+    "stopname": "11th St &amp; Porter St"
+  },
+  {
+    "lng": -75.165194,
+    "lat": 39.919917,
+    "stopid": 21785,
+    "stopname": "11th St &amp; Ritner St"
+  },
+  {
+    "lng": -75.16493,
+    "lat": 39.921175,
+    "stopid": 21786,
+    "stopname": "11th St &amp; Wolf St"
+  },
+  {
+    "lng": -75.164666,
+    "lat": 39.922406,
+    "stopid": 21788,
+    "stopname": "11th St &amp; Jackson St"
+  },
+  {
+    "lng": -75.164125,
+    "lat": 39.92485,
+    "stopid": 21790,
+    "stopname": "11th St &amp; McKean St"
+  },
+  {
+    "lng": -75.169362,
+    "lat": 39.916454,
+    "stopid": 21792,
+    "stopname": "Oregon Av &amp; 13th St"
+  },
+  {
+    "lng": -75.167686,
+    "lat": 39.916237,
+    "stopid": 21794,
+    "stopname": "Oregon Av &amp; 12th St"
+  },
+  {
+    "lng": -75.165362,
+    "lat": 39.919329,
+    "stopid": 24238,
+    "stopname": "11th St &amp; Moyamensing Av"
+  },
+  {
+    "lng": -75.165986,
+    "lat": 39.916331,
+    "stopid": 30858,
+    "stopname": "11th St &amp; Oregon Av - FS"
+  },
+  {
+    "lng": -75.197211,
+    "lat": 40.067708,
+    "stopid": 30859,
+    "stopname": "Germantown Av &amp; Mermaid Ln"
+  },
+  {
+    "lng": -75.197448,
+    "lat": 40.067708,
+    "stopid": 30860,
+    "stopname": "Germantown Av &amp; Mermaid Ln"
+  },
+  {
+    "lng": -75.171905,
+    "lat": 39.911676,
+    "stopid": 31380,
+    "stopname": "Packer Av &amp; Broad St"
+  },
+  {
+    "lng": -75.159444,
+    "lat": 40.023907,
+    "stopid": 31460,
+    "stopname": "Germantown Av &amp; Berkley St"
+  },
+  {
+    "lng": -75.165723,
+    "lat": 39.91086,
+    "stopid": 31461,
+    "stopname": "10th St &amp; Packer Av"
+  },
+  {
+    "lng": -75.15093,
+    "lat": 40.009341,
+    "stopid": 31613,
+    "stopname": "Germantown Av &amp; Erie Av"
+  }
+]
