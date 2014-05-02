@@ -1,6 +1,6 @@
 import math
 
-def getDistance(self, lat1, long1, lat2, long2):
+def getDistance(lat1, long1, lat2, long2):
     """Returns distance between two sets of latitude and longitude"""
 
     # Convert latitude and longitude to 
