@@ -9,7 +9,9 @@ class TestRoute(unittest.TestCase):
 
     def setUp(self):
         # Print out name of method
-        print "\nRunning test '%s'..." % self._testMethodName
+        sys.stdout.flush()
+        sys.stdout.write("\nRunning test '%s'..." % self._testMethodName)
+        sys.stdout.flush()
         self.mockRoute = 34
         # Hard-code lat & lng of eastern entrance to City Hall in Philadelphia
         self.mockLat, self.mockLng = 39.95232, -75.16283
