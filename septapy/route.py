@@ -90,11 +90,18 @@ def guessRoute(lat, lng):
 
     for r in routes:
         routeLine = r.routeLine()
-        for lat, lng in zip(*[iter(routeLine)]*2):
-            print(lat, lng)
 
+        resultsLimit = int((len(routeLine) / 2) / 10)
 
+        for c1, c2 in zip(*[iter(routeLine)]*2):
+            print(c1, c2)
 
+        nearestPoints = [utils.getDistance(lat, lng, x, y) for x, y in zip(*[iter(routeLine)]*2)]
 
-    pass
+        # Find 10% of stops
+        # Sort all stops by distance to location, trim to 10% of results
+        # Store in results hash
+
+    # Print results hash
+    # Compare results entries
 
