@@ -41,7 +41,13 @@ class TestRoute(unittest.TestCase):
         self.assertEqual(nearestStop.stopID, 283)
 
     def testDirections34(self):
-        directions = self.r.directions()
+        r = septapy.route.Route(34)
+        directions = r.directions()
+        self.assertEqual(directions, ('EastBound', 'WestBound'))
+
+    def testDirections15(self):
+        r = septapy.route.Route(15)
+        directions = r.directions()
         self.assertEqual(directions, ('EastBound', 'WestBound'))
 
     def ztestDirectionsBSL(self):
