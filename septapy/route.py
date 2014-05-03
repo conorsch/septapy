@@ -1,5 +1,4 @@
 import re
-import matplotlib.pyplot as plt
 import requests
 import stop, trip, vehicle, utils
 
