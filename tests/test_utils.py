@@ -22,7 +22,9 @@ class TestUtils(unittest.TestCase):
     def testTrolleyRoutes(self):
         routes = septapy.utils.trolleyRoutes()
         self.assertTrue('10' in routes)
+        self.assertTrue('11' in routes)
         self.assertTrue('13' in routes)
+        self.assertTrue('15' in routes)
         self.assertTrue('34' in routes)
         self.assertTrue('36' in routes)
 

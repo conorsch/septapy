@@ -53,4 +53,4 @@ def getKML(url):
 
 def trolleyRoutes():
     """Returns list of valid trolley route identifiers, e.g. ['10', '13', '34', '36']"""
-    return "10 13 34 36".split()
+    return "10 11 13 15 34 36".split()
