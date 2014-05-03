@@ -76,7 +76,7 @@ class TestRoute(unittest.TestCase):
     def testGuessRoute(self):
         # Hard-code lat & long for 60th & Cobbs Creek Parkway (West Philly)
         lat, lng = 39.9463, -75.2441
-        probableRoute = self.r.guessRoute(lat, lng)
+        probableRoute = septapy.route.guessRoute(lat, lng)
         self.assertEqual(probableRoute, '34')
 
 if __name__ == '__main__':

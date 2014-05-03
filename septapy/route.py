@@ -79,3 +79,7 @@ class Route(object):
                 return 'SouthBound'
             else: 
                 return 'NorthBound'
+
+def guessRoute(lat, lng):
+    pass
+
