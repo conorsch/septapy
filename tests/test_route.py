@@ -66,6 +66,10 @@ class TestRoute(unittest.TestCase):
         self.assertEqual(heading, 'EastBound')
         self.assertNotEqual(heading, 'WestBound')
 
+    def testRouteLine(self):
+        routeLine = self.r.routeLine()
+        self.assertTrue(len(filter(lambda x: isinstance(x, float), routeLine)) == len(routeLine))
+
     def ztestGuessHeadingBSL(self):
         # No real-time location for BSL, so this test fails. 
         # Leaving here to add a custom exception for JSONDecodeError in requests.get()
@@ -73,7 +77,7 @@ class TestRoute(unittest.TestCase):
         r = Route('BSL')
         heading = r.guessHeading(self.mockLat, self.mockLng)
 
-    def testGuessRoute(self):
+    def ztestGuessRoute(self):
         # Hard-code lat & long for 60th & Cobbs Creek Parkway (West Philly)
         lat, lng = 39.9463, -75.2441
         probableRoute = septapy.route.guessRoute(lat, lng)

@@ -18,6 +18,7 @@ class Route(object):
     def __init__(self, identifier=None):
         # Ensure we have a string, for concatenation, rather than an integer.
         self.identifier = str(identifier)
+        self.routeLineURL = 'http://www3.septa.org/transitview/kml/%s.kml' % self.identifier
 
     def __unicode__(self):
         return "Route " + self.identifier
@@ -79,6 +80,10 @@ class Route(object):
                 return 'SouthBound'
             else: 
                 return 'NorthBound'
+
+    def routeLine(self):
+        coords = utils.getKML(self.routeLineURL)
+        return coords
 
 def guessRoute(lat, lng):
     pass

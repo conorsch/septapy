@@ -1,4 +1,7 @@
 import math
+import requests
+from pykml import parser
+import re
 
 def getDistance(lat1, long1, lat2, long2):
     """Returns distance between two sets of latitude and longitude"""
@@ -30,3 +33,24 @@ def getDistance(lat1, long1, lat2, long2):
     # Remember to multiply arc by the radius of the earth 
     # in your favorite set of units to get length.
     return arc
+
+def getKML(url):
+    r = requests.get(url)
+    rawKML = r.content
+
+    root = parser.fromstring(rawKML)
+    s = str(root.Document.Placemark.MultiGeometry.LineString.coordinates)
+
+    # Clean up padding whitespace
+    s = re.sub('\s*', '', s)
+
+    coords = s.split(',')
+    # Remove leading zeroes from negative values, since float() fails on that format.
+    coords = [re.sub('^0-', '-', c) for c in coords]
+    # Convert all numbers to floats
+    coords = [float(c) for c in coords]
+    return coords
+
+def trolleyRoutes():
+    """Returns list of valid trolley route identifiers, e.g. ['10', '13', '34', '36']"""
+    return "10 13 34 36".split()
