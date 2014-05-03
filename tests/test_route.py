@@ -4,6 +4,7 @@ import unittest
 sys.path.insert(0, os.path.abspath( os.path.join(os.path.dirname(__file__), '../septapy/') ))
 import septapy
 from septapy.route import Route
+import mockdata
 
 class TestRoute(unittest.TestCase):
 
@@ -12,14 +13,11 @@ class TestRoute(unittest.TestCase):
         sys.stdout.flush()
         sys.stdout.write("\nRunning test '%s'..." % self._testMethodName)
         sys.stdout.flush()
-        self.mockRoute = 34
-        # Hard-code lat & lng of eastern entrance to City Hall in Philadelphia
-        self.mockLat, self.mockLng = 39.95232, -75.16283
-        self.r = Route(self.mockRoute)
+        self.r = Route(mockdata.route)
 
     def testRouteCreation(self):
-        r = Route(self.mockRoute)
-        self.assertEqual(r.identifier, str(self.mockRoute))
+        r = Route(mockdata.route)
+        self.assertEqual(r.identifier, str(mockdata.route))
 
     def testVehicleLookup(self):
         vehicles = self.r.vehicles()
@@ -38,7 +36,7 @@ class TestRoute(unittest.TestCase):
 
     def testNearestStop(self):
         # Hard-code lat & lng of eastern entrance to City Hall in Philadelphia
-        nearestStop = self.r.nearestStop(self.mockLat, self.mockLng)
+        nearestStop = self.r.nearestStop(mockdata.cityHallLat, mockdata.cityHallLng)
         self.assertEqual(nearestStop.name, '13th St Trolley Station')
         self.assertEqual(nearestStop.stopID, 283)
 
@@ -55,20 +53,19 @@ class TestRoute(unittest.TestCase):
         self.assertEqual(directions, ('NorthBound', 'SouthBound'))
 
     def testGuessHeading34FromCityHall(self):
-        heading = self.r.guessHeading(self.mockLat, self.mockLng)
+        heading = self.r.guessHeading(mockdata.cityHallLat, mockdata.cityHallLng)
         self.assertEqual(heading, 'WestBound')
         self.assertNotEqual(heading, 'EastBound')
 
     def testGuessHeading34FromWestPhilly(self):
-        # Hard-code lat & long for 60th & Cobbs Creek Parkway (West Philly)
-        lat, lng = 39.9463, -75.2441
-        heading = self.r.guessHeading(lat, lng)
+        heading = self.r.guessHeading(mockdata.westPhillyLat, mockdata.westPhillyLng)
         self.assertEqual(heading, 'EastBound')
         self.assertNotEqual(heading, 'WestBound')
 
     def testRouteLine(self):
         routeLine = self.r.routeLine()
-        self.assertTrue(len(filter(lambda x: isinstance(x, float), routeLine)) == len(routeLine))
+        for p in routeLine:
+            self.assertTrue(isinstance(p, float))
 
     def ztestGuessHeadingBSL(self):
         # No real-time location for BSL, so this test fails. 
@@ -77,11 +74,13 @@ class TestRoute(unittest.TestCase):
         r = Route('BSL')
         heading = r.guessHeading(self.mockLat, self.mockLng)
 
-    def testGuessRoute(self):
-        # Hard-code lat & long for 60th & Cobbs Creek Parkway (West Philly)
-        lat, lng = 39.9463, -75.2441
-        probableRoute = septapy.route.guessRoute(lat, lng)
+    def testGuessRoute34(self):
+        probableRoute = septapy.route.guessRoute(mockdata.westPhillyLat, mockdata.westPhillyLng)
         self.assertEqual(probableRoute, '34')
+
+    def testGuessRoute10(self):
+        probableRoute = septapy.route.guessRoute(mockdata.westPhillyLat2, mockdata.westPhillyLng2)
+        self.assertEqual(probableRoute, '10')
 
 if __name__ == '__main__':
     unittest.main()

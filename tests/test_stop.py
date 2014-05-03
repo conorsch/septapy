@@ -3,6 +3,7 @@ import os
 import unittest
 sys.path.insert(0, os.path.abspath( os.path.join(os.path.dirname(__file__), '../septapy/') ))
 import septapy
+import mockdata
 
 class TestStop(unittest.TestCase):
 
@@ -11,17 +12,14 @@ class TestStop(unittest.TestCase):
         sys.stdout.flush()
         sys.stdout.write("\nRunning test '%s'..." % self._testMethodName)
         sys.stdout.flush()
-        self.mockRoute = str(34)
-        # Hard-code lat & lng of eastern entrance to City Hall in Philadelphia
-        self.mockLat, self.mockLng = 39.95232, -75.16283
 
     def testGetStopsByRoute(self):
-        stops = septapy.stop.getStopsByRoute(self.mockRoute)
+        stops = septapy.stop.getStopsByRoute(mockdata.route)
         for s in stops:
             self.assertIsInstance(s, septapy.stop.Stop)
 
     def testGetNearestStops(self):
-        nearestStops = septapy.stop.getNearestStops(self.mockLat, self.mockLng, route=self.mockRoute)
+        nearestStops = septapy.stop.getNearestStops(mockdata.cityHallLat, mockdata.cityHallLng, route=mockdata.route)
         # Ensure multiple return values
         self.assertGreater(len(nearestStops), 1)
         for s in nearestStops:
