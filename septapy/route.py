@@ -94,6 +94,7 @@ def guessRoute(lat, lng):
         averageDistance = reduce(lambda x, y: float(x) + float(y), shortestDistances) / float(len(routes))
         results[r.identifier] = averageDistance
 
+    print results
     # Invert hash of results, so max()[1] returns key, which is routeIdentifier
     inverse = [(value, key) for key, value in results.items()]
     probableRoute = max(inverse)[1]

@@ -36,7 +36,7 @@ class TestRoute(unittest.TestCase):
 
     def testNearestStop(self):
         # Hard-code lat & lng of eastern entrance to City Hall in Philadelphia
-        nearestStop = self.r.nearestStop(mockdata.cityHallLat, mockdata.cityHallLng)
+        nearestStop = self.r.nearestStop(mockdata.locationCityHallLat, mockdata.locationCityHallLng)
         self.assertEqual(nearestStop.name, '13th St Trolley Station')
         self.assertEqual(nearestStop.stopID, 283)
 
@@ -53,12 +53,12 @@ class TestRoute(unittest.TestCase):
         self.assertEqual(directions, ('NorthBound', 'SouthBound'))
 
     def testGuessHeading34FromCityHall(self):
-        heading = self.r.guessHeading(mockdata.cityHallLat, mockdata.cityHallLng)
+        heading = self.r.guessHeading(mockdata.locationCityHallLat, mockdata.locationCityHallLng)
         self.assertEqual(heading, 'WestBound')
         self.assertNotEqual(heading, 'EastBound')
 
     def testGuessHeading34FromWestPhilly(self):
-        heading = self.r.guessHeading(mockdata.westPhillyLat, mockdata.westPhillyLng)
+        heading = self.r.guessHeading(mockdata.location60thCobbsCreekLat, mockdata.location60thCobbsCreekLng)
         self.assertEqual(heading, 'EastBound')
         self.assertNotEqual(heading, 'WestBound')
 
@@ -72,15 +72,19 @@ class TestRoute(unittest.TestCase):
         # Leaving here to add a custom exception for JSONDecodeError in requests.get()
         pass
         r = Route('BSL')
-        heading = r.guessHeading(self.mockLat, self.mockLng)
+        heading = r.guessHeading(self.locationBroadRidgeLat, self.locationBroadRidgeLng)
 
     def testGuessRoute34(self):
-        probableRoute = septapy.route.guessRoute(mockdata.westPhillyLat, mockdata.westPhillyLng)
+        probableRoute = septapy.route.guessRoute(mockdata.location60thCobbsCreekLat, mockdata.location60thCobbsCreekLng)
         self.assertEqual(probableRoute, '34')
 
     def testGuessRoute10(self):
-        probableRoute = septapy.route.guessRoute(mockdata.westPhillyLat2, mockdata.westPhillyLng2)
+        probableRoute = septapy.route.guessRoute(mockdata.location40thLancasterLat, mockdata.location40thLancasterLng)
         self.assertEqual(probableRoute, '10')
+
+    def testGuessRoute15(self):
+        probableRoute = septapy.route.guessRoute(mockdata.location30thGirard, mockdata.location30thGirard)
+        self.assertEqual(probableRoute, '15')
 
 if __name__ == '__main__':
     unittest.main()

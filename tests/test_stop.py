@@ -19,7 +19,7 @@ class TestStop(unittest.TestCase):
             self.assertIsInstance(s, septapy.stop.Stop)
 
     def testGetNearestStops(self):
-        nearestStops = septapy.stop.getNearestStops(mockdata.cityHallLat, mockdata.cityHallLng, route=mockdata.route)
+        nearestStops = septapy.stop.getNearestStops(mockdata.locationCityHallLat, mockdata.locationCityHallLng, route=mockdata.route)
         # Ensure multiple return values
         self.assertGreater(len(nearestStops), 1)
         for s in nearestStops:
