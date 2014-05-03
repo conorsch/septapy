@@ -1,4 +1,5 @@
 import requests
+import utils
 
 class Vehicle(object):
     """Represents a single physical vehicle traveling along a Route."""
@@ -36,6 +37,7 @@ Next stop: %(destination)s
         return representation
 
 def getVehiclesByRoute(routeIdentifier):
+    routeIdentifier = str(routeIdentifier)
     vehicleURL = 'http://www3.septa.org/transitview/bus_route_data/' + routeIdentifier
     r = requests.get(vehicleURL)
     j = r.json()
