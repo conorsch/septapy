@@ -86,5 +86,15 @@ class Route(object):
         return coords
 
 def guessRoute(lat, lng):
+    routes = [Route(r) for r in utils.trolleyRoutes()]
+
+    for r in routes:
+        routeLine = r.routeLine()
+        for lat, lng in zip(*[iter(routeLine)]*2):
+            print(lat, lng)
+
+
+
+
     pass
 

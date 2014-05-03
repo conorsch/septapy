@@ -77,7 +77,7 @@ class TestRoute(unittest.TestCase):
         r = Route('BSL')
         heading = r.guessHeading(self.mockLat, self.mockLng)
 
-    def ztestGuessRoute(self):
+    def testGuessRoute(self):
         # Hard-code lat & long for 60th & Cobbs Creek Parkway (West Philly)
         lat, lng = 39.9463, -75.2441
         probableRoute = septapy.route.guessRoute(lat, lng)
