@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name = 'septapy',
     packages = ['septapy'],
-    version = '0.0.1',
+    version = '0.0.2',
     description = 'Library for querying SEPTA public transit API',
     author = 'Conor Schaefer',
     author_email = 'conor.schaefer@gmail.com',
