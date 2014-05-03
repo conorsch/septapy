@@ -8,7 +8,9 @@ class TestUtils(unittest.TestCase):
 
     def setUp(self):
         # Print out name of method
-        print "\nRunning test '%s'..." % self._testMethodName
+        sys.stdout.flush()
+        sys.stdout.write("\nRunning test '%s'..." % self._testMethodName)
+        sys.stdout.flush()
         self.mockRoute = str(34)
         self.mockKMLURL = 'http://www3.septa.org/transitview/kml/%s.kml' % self.mockRoute
         # Hard-code lat & lng of eastern entrance to City Hall in Philadelphia
