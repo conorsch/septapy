@@ -8,7 +8,9 @@ class TestVehicle(unittest.TestCase):
 
     def setUp(self):
         # Print out name of method
-        print "\nRunning test '%s'..." % self._testMethodName
+        sys.stdout.flush()
+        sys.stdout.write("\nRunning test '%s'..." % self._testMethodName)
+        sys.stdout.flush()
         self.mockRoute = str(34)
 
     def testGetVehiclesByRoute(self):

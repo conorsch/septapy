@@ -87,21 +87,14 @@ class Route(object):
 
 def guessRoute(lat, lng):
     routes = [Route(r) for r in utils.trolleyRoutes()]
-
+    results = {}
     for r in routes:
         routeLine = r.routeLine()
+        shortestDistances = [utils.getDistance(lat, lng, x, y) for x, y in zip(*[iter(routeLine)]*2)]
+        averageDistance = reduce(lambda x, y: float(x) + float(y), shortestDistances) / float(len(routes))
+        results[r.identifier] = averageDistance
 
-        resultsLimit = int((len(routeLine) / 2) / 10)
-
-        for c1, c2 in zip(*[iter(routeLine)]*2):
-            print(c1, c2)
-
-        nearestPoints = [utils.getDistance(lat, lng, x, y) for x, y in zip(*[iter(routeLine)]*2)]
-
-        # Find 10% of stops
-        # Sort all stops by distance to location, trim to 10% of results
-        # Store in results hash
-
-    # Print results hash
-    # Compare results entries
-
+    # Invert hash of results, so max()[1] returns key, which is routeIdentifier
+    inverse = [(value, key) for key, value in results.items()]
+    probableRoute = max(inverse)[1]
+    return probableRoute
