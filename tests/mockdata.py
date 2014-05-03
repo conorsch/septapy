@@ -24,4 +24,9 @@ locationBroadRidge = (39.96678, -75.16048)
 locationBroadRidgeLat = locationBroadRidge[0]
 locationBroadRidgeLng = locationBroadRidge[1]
 
+# 50th & Chester
+location50thChester = (39.94296, -75.21832)
+location50thChesterLat = location50thChester[0]
+location50thChesterLng = location50thChester[1]
+
 KMLURL = 'http://www3.septa.org/transitview/kml/%s.kml' % route

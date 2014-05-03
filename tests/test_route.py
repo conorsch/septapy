@@ -92,5 +92,9 @@ class TestRoute(unittest.TestCase):
         probableRoute = septapy.route.guessRoute(mockdata.location30thGirardLat, mockdata.location30thGirardLng)
         self.assertEqual(probableRoute, '15')
 
+    def testGuessRoute13(self):
+        probableRoute = septapy.route.guessRoute(mockdata.location50thChesterLat, mockdata.location50thChesterLng)
+        self.assertEqual(probableRoute, '13')
+
 if __name__ == '__main__':
     unittest.main()
