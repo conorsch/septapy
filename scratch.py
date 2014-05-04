@@ -3,14 +3,15 @@ import requests
 from pykml import parser
 import re
 
-def getCoordinatesNamespaces(rawKML):
-    root = parser.fromstring(rawKML)
+def getCoordinatesNamespaces(root):
     results = []
     dp = root.descendantpaths()
     regex = re.compile('{http://www.opengis.net/kml/2.2}kml.')
     for d in dp:
         if re.match(r'.*coordinates$', d):
+            print d
             ns = re.sub(regex, '', d)
+            print ns
             results.append(ns)
 
     return results
@@ -18,11 +19,14 @@ def getCoordinatesNamespaces(rawKML):
 def getKML(url):
     r = requests.get(url)
     rawKML = r.content
+    root = parser.fromstring(rawKML)
+    coordinatesNamespaces = getCoordinatesNamespaces(root)
 
-    coordinatesNamespaces = getCoordinatesNamespaces(rawKML)
-    print coordinatesNamespaces
-    s = ','.join(coordinatesNamespaces)
-    print s
+    for c in coordinatesNamespaces:
+        c2 = 'Document.Placemark.MultiGeometry.LineString.coordinates'
+        print root.Document.Placemark.MultiGeometry.LineString.coordinates
+        print getattr(root, c) 
+
 
     # Clean up padding whitespace
     s = re.sub('\s*', '', s)
