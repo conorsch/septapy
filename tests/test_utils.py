@@ -20,7 +20,6 @@ class TestUtils(unittest.TestCase):
     def testExtractCoordinatesFromKML(self):
         results = septapy.utils.getKML(mockdata.KMLURL)
         coords = septapy.utils.extractCoordinatesFromKML(results)
-        print "COORDS IS TYPE: %s" % str(type(coords))
         self.assertIsInstance(coords, list)
         for c in coords:
             self.assertIsInstance(c, float)

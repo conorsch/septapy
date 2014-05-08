@@ -93,10 +93,12 @@ def guessRoute(lat, lng):
         routeLine = r.routeLine()
         print "Route %s routeline has %s points." % (r.identifier, len(routeLine)/2 )
         shortestDistances = [utils.getDistance(lat, lng, x, y) for x, y in zip(*[iter(routeLine)]*2)]
-        averageDistance = reduce(lambda x, y: float(x) + float(y), shortestDistances[:5]) / float(len(routes))
+        averageDistance = reduce(lambda x, y: float(x) + float(y), shortestDistances) / float(len(routes))
         results[r.identifier] = averageDistance
 
     # Invert hash of results, so max()[1] returns key, which is routeIdentifier
     inverse = [(value, key) for key, value in results.items()]
+    print "INVERSE:"
+    print inverse
     probableRoute = max(inverse)[1]
     return probableRoute

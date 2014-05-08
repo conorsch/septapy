@@ -37,24 +37,23 @@ def getDistance(lat1, long1, lat2, long2):
 def cleanCoordinates(coordsRaw):
 
     # Clean up padding whitespace
-    c = re.sub('\s*', '', coordsRaw)
+    c = re.sub('\s*', '', str(coordsRaw))
+    # Split up comma-separate values
     coords = c.split(',')
-
     # Remove leading zeroes from negative values, since float() fails on that format.
     coords = [re.sub('^0-', '-', c) for c in coords]
     # Convert all numbers to floats
     coords = [float(c) for c in coords]
+    # End of list often has a null value, so pop it off
+    coords.remove(0.0)
     return coords
-
 
 def extractCoordinatesFromKML(rawKML):
     root = parser.fromstring(rawKML)
     coords = []
-
     for c in root.Document.Placemark.MultiGeometry.getchildren():
         c = cleanCoordinates(c.coordinates)
-        coords.append(c)
-
+        coords = coords + c
     return coords
 
 def getKML(url):
