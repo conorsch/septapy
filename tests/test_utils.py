@@ -14,10 +14,16 @@ class TestUtils(unittest.TestCase):
         sys.stdout.flush()
 
     def testGetKML(self):
+        # Lazy test, the getKML() call should raise exceptions on failure
         results = septapy.utils.getKML(mockdata.KMLURL)
-        self.assertIsInstance(results, list)
-        for r in results:
-            self.assertIsInstance(r, float)
+
+    def testExtractCoordinatesFromKML(self):
+        results = septapy.utils.getKML(mockdata.KMLURL)
+        coords = septapy.utils.extractCoordinatesFromKML(results)
+        print "COORDS IS TYPE: %s" % str(type(coords))
+        self.assertIsInstance(coords, list)
+        for c in coords:
+            self.assertIsInstance(c, float)
 
     def testTrolleyRoutes(self):
         routes = septapy.utils.trolleyRoutes()

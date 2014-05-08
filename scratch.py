@@ -30,8 +30,6 @@ def getKML(url):
     rawKML = r.content
     return rawKML
     
-
-    
     coords = extractCoordinatesFromKML(rawKML)
     return coordsClean
 

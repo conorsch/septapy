@@ -82,7 +82,8 @@ class Route(object):
                 return 'NorthBound'
 
     def routeLine(self):
-        coords = utils.getKML(self.routeLineURL)
+        rawKML = utils.getKML(self.routeLineURL)
+        coords = utils.extractCoordinatesFromKML(rawKML)
         return coords
 
 def guessRoute(lat, lng):

@@ -34,22 +34,33 @@ def getDistance(lat1, long1, lat2, long2):
     # in your favorite set of units to get length.
     return arc
 
-def getKML(url):
-    r = requests.get(url)
-    rawKML = r.content
-
-    root = parser.fromstring(rawKML)
-    s = str(root.Document.Placemark.MultiGeometry.LineString.coordinates)
+def cleanCoordinates(coordsRaw):
 
     # Clean up padding whitespace
-    s = re.sub('\s*', '', s)
+    c = re.sub('\s*', '', coordsRaw)
+    coords = c.split(',')
 
-    coords = s.split(',')
     # Remove leading zeroes from negative values, since float() fails on that format.
     coords = [re.sub('^0-', '-', c) for c in coords]
     # Convert all numbers to floats
     coords = [float(c) for c in coords]
     return coords
+
+
+def extractCoordinatesFromKML(rawKML):
+    root = parser.fromstring(rawKML)
+    coords = []
+
+    for c in root.Document.Placemark.MultiGeometry.getchildren():
+        c = cleanCoordinates(c.coordinates)
+        coords.append(c)
+
+    return coords
+
+def getKML(url):
+    r = requests.get(url)
+    rawKML = r.content
+    return rawKML
 
 def trolleyRoutes():
     """Returns list of valid trolley route identifiers, e.g. ['10', '13', '34', '36']"""
