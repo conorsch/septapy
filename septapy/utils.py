@@ -53,7 +53,8 @@ def extractCoordinatesFromKML(rawKML):
     coords = []
     for c in root.Document.Placemark.MultiGeometry.getchildren():
         c = cleanCoordinates(c.coordinates)
-        coords = coords + c
+        for d in c:
+            coords.append(d)
     return coords
 
 def getKML(url):
