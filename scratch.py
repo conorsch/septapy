@@ -40,9 +40,9 @@ def convertListOfCoordsToTuples(listOfCoords):
 def plotCoords(listOfCoords):
     coords = convertListOfCoordsToTuples(listOfCoords)
     x = [x[0] for x in coords]
-    y = [y[0] for y in coords]
-#    print "X values:"
-#    print x
+    y = [y[1] for y in coords]
+    print "X values:"
+    print x
     color=['m','g','r','b']
     pylab.scatter(x,y, s=100, marker='o', c=color)
     pylab.show()
