@@ -44,8 +44,9 @@ def cleanCoordinates(coordsRaw):
     coords = [re.sub('^0-', '-', c) for c in coords]
     # Convert all numbers to floats
     coords = [float(c) for c in coords]
-    # End of list often has a null value, so pop it off
-    coords.remove(0.0)
+    # Default KML structure appends '0.0' to all lines, so remove those noisy values
+    coords = filter(lambda x: x != 0.0, coords)
+
     return coords
 
 def extractCoordinatesFromKML(rawKML):

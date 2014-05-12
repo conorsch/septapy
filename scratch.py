@@ -20,22 +20,11 @@ def cleanCoordinates(coordsRaw):
 
     return coords
 
+def convertListOfCoordsToTuples(listOfCoords, n=None):
+    if not n:
+        n = 2
 
-def extractCoordinatesFromKML(rawKML):
-    root = parser.fromstring(rawKML)
-    coords = list()
-    for c in root.Document.Placemark.MultiGeometry.getchildren():
-        c = cleanCoordinates(c.coordinates)
-        for d in c:
-            coords.append(d)
-
-    return coords
-
-def convertListOfCoordsToTuples(listOfCoords):
-    l = [(x, y) for x, y in zip(*[iter(listOfCoords)]*2)]
-    print l
-    return l
-
+    return [(x, y) for x, y in zip(*[iter(listOfCoords)]*n)]
 
 def plotCoords(listOfCoords):
     coords = convertListOfCoordsToTuples(listOfCoords)
@@ -46,19 +35,6 @@ def plotCoords(listOfCoords):
     color=['m','g','r','b']
     pylab.scatter(x,y, s=100, marker='o', c=color)
     pylab.show()
-
-
-def getKML(url):
-    print "Getting KML..."
-    r = requests.get(url)
-    rawKML = r.content
-    
-    coords = extractCoordinatesFromKML(rawKML)
-    plotCoords(coords)
-
-    return rawKML
-    return coordsClean
-
 
 if __name__ == '__main__':
     getKML(tests.mockdata.KMLURL)
