@@ -86,6 +86,15 @@ class Route(object):
         coords = utils.extractCoordinatesFromKML(rawKML)
         return coords
 
+    def drawRouteLine(self):
+        import pylab
+        coords = self.routeLine()
+        x = [x[0] for x in coords]
+        y = [y[1] for y in coords]
+        color=['m','g','r','b']
+        pylab.scatter(x,y, s=100, marker='o', c=color)
+        pylab.show()
+
 def guessRoute(lat, lng):
     routes = [Route(r) for r in utils.trolleyRoutes()]
     results = {}
