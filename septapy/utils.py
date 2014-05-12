@@ -58,6 +58,12 @@ def extractCoordinatesFromKML(rawKML):
             coords.append(d)
     return coords
 
+def convertListOfCoordsToTuples(listOfCoords, n=None):
+    if not n:
+        n = 2
+
+    return [(x, y) for x, y in zip(*[iter(listOfCoords)]*n)]
+
 def getKML(url):
     r = requests.get(url)
     rawKML = r.content
