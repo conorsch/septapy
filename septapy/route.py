@@ -89,6 +89,7 @@ class Route(object):
     def drawRouteLine(self):
         import pylab
         coords = self.routeLine()
+        coords = utils.convertListOfCoordsToTuples(coords)
         x = [x[0] for x in coords]
         y = [y[1] for y in coords]
         color=['m','g','r','b']
@@ -105,8 +106,9 @@ def guessRoute(lat, lng):
         shortestDistances.sort()
 
         maxPointsToConsider = int(pointsInRouteLine * 0.25)
+        maxPointsToConsider = pointsInRouteLine
         shortestDistances = shortestDistances[:maxPointsToConsider]
-        print "Route %s routeline has %s points, but only considering %s." % (r.identifier, pointsInRouteLine, maxPointsToConsider)
+#        print "Route %s routeline has %s points, but only considering %s." % (r.identifier, pointsInRouteLine, maxPointsToConsider)
 
         averageDistance = reduce(lambda x, y: float(x) + float(y), shortestDistances) / float(len(routes))
         results[r.identifier] = averageDistance
