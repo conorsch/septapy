@@ -97,9 +97,12 @@ class TestRoute(unittest.TestCase):
         self.assertEqual(probableRoute, '13')
 
     def testDrawRouteLine(self):
+        routeLines = {}
         for r in septapy.utils.trolleyRoutes():
             r = septapy.route.Route(r)
-            r.drawRouteLine()
+            routeLines[r.number] = r.routeLine()
+
+#        for r, l in routeLines.items():
 
 if __name__ == '__main__':
     unittest.main()

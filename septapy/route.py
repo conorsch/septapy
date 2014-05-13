@@ -18,6 +18,7 @@ class Route(object):
     def __init__(self, identifier=None):
         # Ensure we have a string, for concatenation, rather than an integer.
         self.identifier = str(identifier)
+        self.number = self.identifier
         self.routeLineURL = 'http://www3.septa.org/transitview/kml/%s.kml' % self.identifier
 
     def __unicode__(self):
@@ -105,15 +106,20 @@ def guessRoute(lat, lng):
         shortestDistances = [utils.getDistance(lat, lng, x, y) for x, y in zip(*[iter(routeLine)]*2)]
         shortestDistances.sort()
 
-        maxPointsToConsider = int(pointsInRouteLine * 0.25)
         maxPointsToConsider = pointsInRouteLine
+        maxPointsToConsider = 10
+        maxPointsToConsider = int(pointsInRouteLine * 0.20)
         shortestDistances = shortestDistances[:maxPointsToConsider]
-#        print "Route %s routeline has %s points, but only considering %s." % (r.identifier, pointsInRouteLine, maxPointsToConsider)
+        print "Route %s routeline has %s points, but only considering %s." % (r.identifier, pointsInRouteLine, maxPointsToConsider)
 
         averageDistance = reduce(lambda x, y: float(x) + float(y), shortestDistances) / float(len(routes))
         results[r.identifier] = averageDistance
 
-    # Invert hash of results, so max()[1] returns key, which is routeIdentifier
+    # Invert hash of results, so min()[1] returns key, which is routeIdentifier
     inverse = [(value, key) for key, value in results.items()]
-    probableRoute = max(inverse)[1]
+    print "\n"
+    for i in sorted(inverse):
+        print i
+
+    probableRoute = min(inverse)[1]
     return probableRoute
