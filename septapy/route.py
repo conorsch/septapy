@@ -1,6 +1,7 @@
 import re
 import requests
 import stop, trip, vehicle, utils
+import math
 
 class Route(object):
     """Represents a path that a Vehicle can take. Can list related objects 
@@ -87,39 +88,37 @@ class Route(object):
         coords = utils.extractCoordinatesFromKML(rawKML)
         return coords
 
-    def drawRouteLine(self):
+    def drawRouteLine(self, coords=None):
         import pylab
-        coords = self.routeLine()
-        coords = utils.convertListOfCoordsToTuples(coords)
-        x = [x[0] for x in coords]
-        y = [y[1] for y in coords]
-        color=['m','g','r','b']
-        pylab.scatter(x,y, s=100, marker='o', c=color)
-        pylab.show()
+        if not coords:
+            coords = self.routeLine()
+        utils.plotCoords(coords)
 
 def guessRoute(lat, lng):
     routes = [Route(r) for r in utils.trolleyRoutes()]
     results = {}
     for r in routes:
         routeLine = r.routeLine()
-        pointsInRouteLine = len(routeLine) / 2
-        shortestDistances = [utils.getDistance(lat, lng, x, y) for x, y in zip(*[iter(routeLine)]*2)]
+        pointsInRouteLine = len(routeLine)
+        shortestDistances = [utils.getDistance(lat, lng, x, y) for x, y in utils.convertListOfCoordsToTuples(routeLine)]
+        shortestDistances = [math.hypot(lat - x, lng -y) for x, y in utils.convertListOfCoordsToTuples(routeLine)]
         shortestDistances.sort()
 
         maxPointsToConsider = pointsInRouteLine
-        maxPointsToConsider = 10
-        maxPointsToConsider = int(pointsInRouteLine * 0.20)
+        maxPointsToConsider = int(pointsInRouteLine * 0.4)
+        maxPointsToConsider = 1
         shortestDistances = shortestDistances[:maxPointsToConsider]
+
         print "Route %s routeline has %s points, but only considering %s." % (r.identifier, pointsInRouteLine, maxPointsToConsider)
 
-        averageDistance = reduce(lambda x, y: float(x) + float(y), shortestDistances) / float(len(routes))
+        averageDistance = reduce(lambda x, y: float(x) + float(y), shortestDistances) / float(len(shortestDistances))
         results[r.identifier] = averageDistance
 
-    # Invert hash of results, so min()[1] returns key, which is routeIdentifier
+    # Invert hash of results, so max()[1] returns key, which is routeIdentifier
     inverse = [(value, key) for key, value in results.items()]
     print "\n"
     for i in sorted(inverse):
         print i
 
-    probableRoute = min(inverse)[1]
+    probableRoute = max(inverse)[1]
     return probableRoute

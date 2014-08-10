@@ -64,6 +64,15 @@ def convertListOfCoordsToTuples(listOfCoords, n=None):
 
     return [(x, y) for x, y in zip(*[iter(listOfCoords)]*n)]
 
+def plotCoords(listOfCoords):
+    import pylab
+    coords = convertListOfCoordsToTuples(listOfCoords)
+    x = [x[0] for x in coords]
+    y = [y[1] for y in coords]
+    color=['m','g','r','b']
+    pylab.scatter(x,y, s=100, marker='o', c=color)
+    pylab.show()
+
 def getKML(url):
     r = requests.get(url)
     rawKML = r.content
